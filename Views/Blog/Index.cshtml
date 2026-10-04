@@ -1,0 +1,125 @@
+@model IEnumerable<macchindrabagstore.Models.BlogPost>
+
+@{
+    ViewData["Title"] = "Bag Repair & Leather Care Blog";
+}
+
+<section class="blog-hero">
+    <div class="container">
+        <div class="blog-hero-content">
+            <span class="eyebrow">FROM OUR WORKSHOP</span>
+
+            <h1>
+                Bag Repair Tips,
+                <span>Real Repair Stories</span>
+                & Leather Care
+            </h1>
+
+            <p>
+                Practical information about bag repair, luggage care,
+                leather maintenance and the repair work we do at
+                New Macchindra Leather and Bag Store in Lagankhel.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="section blog-listing">
+    <div class="container">
+
+        <div class="section-heading">
+            <div>
+                <span class="eyebrow">OUR BLOG</span>
+                <h2>Useful Advice From the Workshop</h2>
+            </div>
+
+            <p>
+                Learn more about common bag problems, repair options
+                and how to get more life from the bags you already own.
+            </p>
+        </div>
+
+        <div class="blog-grid">
+
+            @foreach (var post in Model)
+            {
+                <article class="blog-card">
+
+                    <a href="/blog/@post.Slug" class="blog-card-image">
+                        <img src="@post.FeaturedImage"
+                             alt="@post.Title"
+                             loading="lazy" />
+
+                        <span class="blog-category">
+                            @post.Category
+                        </span>
+                    </a>
+
+                    <div class="blog-card-body">
+
+                        <div class="blog-meta">
+                            <span>@post.PublishedDate</span>
+                            <span>•</span>
+                            <span>@post.ReadTime</span>
+                        </div>
+
+                        <h3>
+                            <a href="/blog/@post.Slug">
+                                @post.Title
+                            </a>
+                        </h3>
+
+                        <p>
+                            @post.Excerpt
+                        </p>
+
+                        <a href="/blog/@post.Slug"
+                           class="blog-read-more">
+                            Read Article
+                            <span>→</span>
+                        </a>
+
+                    </div>
+                </article>
+            }
+
+        </div>
+
+    </div>
+</section>
+
+<section class="blog-cta">
+    <div class="container">
+        <div class="blog-cta-inner">
+
+            <div>
+                <span class="eyebrow">HAVE A BAG PROBLEM?</span>
+
+                <h2>
+                    Don't Throw It Away.
+                    <span>Bring It In.</span>
+                </h2>
+
+                <p>
+                    We repair school bags, laptop bags, ladies bags,
+                    luggage, leather items and many other types of bags.
+                </p>
+            </div>
+
+            <div class="blog-cta-actions">
+                <a href="tel:9860357158" class="btn btn-primary">
+                    Call for Repair
+                </a>
+
+                <a href="https://wa.me/9779860357158"
+                   target="_blank"
+                   rel="noopener"
+                   class="btn btn-secondary">
+                    WhatsApp
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+

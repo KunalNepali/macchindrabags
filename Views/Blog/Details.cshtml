@@ -1,0 +1,140 @@
+@model macchindrabagstore.Models.BlogPost
+
+@{
+    ViewData["Title"] = Model.Title;
+}
+
+<article class="blog-article">
+
+    <header class="blog-article-header">
+        <div class="container">
+
+            <div class="blog-breadcrumb">
+                <a href="/">Home</a>
+                <span>→</span>
+                <a href="/blog">Blog</a>
+                <span>→</span>
+                <span>@Model.Category</span>
+            </div>
+
+            <div class="blog-article-category">
+                @Model.Category
+            </div>
+
+            <h1>@Model.Title</h1>
+
+            <p class="blog-article-excerpt">
+                @Model.Excerpt
+            </p>
+
+            <div class="blog-article-meta">
+                <span>@Model.PublishedDate</span>
+                <span>•</span>
+                <span>@Model.ReadTime</span>
+                <span>•</span>
+                <span>New Macchindra Leather and Bag Store</span>
+            </div>
+
+        </div>
+    </header>
+
+
+    <div class="container">
+
+        <div class="blog-article-image">
+            <img src="@Model.FeaturedImage"
+                 alt="@Model.Title" />
+        </div>
+
+        <div class="blog-article-layout">
+
+            <div class="blog-article-content">
+
+                @Html.Raw(Model.ContentHtml)
+
+            </div>
+
+            <aside class="blog-article-sidebar">
+
+                <div class="blog-sidebar-card">
+
+                    <span class="eyebrow">
+                        NEW MACCHINDRA
+                    </span>
+
+                    <h3>
+                        Have a bag that needs repair?
+                    </h3>
+
+                    <p>
+                        Bring your bag or luggage to our
+                        Lagankhel store for inspection.
+                    </p>
+
+                    <a href="tel:9860357158"
+                       class="btn btn-primary">
+                        Call Us
+                    </a>
+
+                    <a href="https://wa.me/9779860357158"
+                       target="_blank"
+                       rel="noopener"
+                       class="btn btn-secondary">
+                        WhatsApp
+                    </a>
+
+                    <small>
+                        Repair services are provided at our
+                        Lagankhel store. We do not provide
+                        pickup or delivery for repair bags.
+                    </small>
+
+                </div>
+
+                <div class="blog-sidebar-card blog-product-card">
+
+                    <span class="eyebrow">
+                        LOOKING FOR A NEW BAG?
+                    </span>
+
+                    <h3>
+                        Explore Our Products
+                    </h3>
+
+                    <p>
+                        New bags and accessories are available
+                        for online order and delivery.
+                    </p>
+
+                    <a href="/#products"
+                       class="blog-read-more">
+                        View Products →
+                    </a>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+    </div>
+
+</article>
+
+<section class="blog-related">
+    <div class="container">
+
+        <div class="section-heading">
+            <div>
+                <span class="eyebrow">MORE FROM OUR WORKSHOP</span>
+                <h2>More Articles</h2>
+            </div>
+
+            <a href="/blog" class="blog-view-all">
+                View All Articles →
+            </a>
+        </div>
+
+    </div>
+</section>
+
