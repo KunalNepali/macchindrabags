@@ -1,44 +1,138 @@
-﻿<!DOCTYPE html>
+﻿@{
+    var pageTitle = ViewData["Title"] as string
+                     ?? "New Macchindra Leather & Bag Store | Bag Repair in Lagankhel";
+
+    var pageDescription = ViewData["Description"] as string
+                           ?? "New Macchindra Leather and Bag Store in Lagankhel, Lalitpur. Professional bag repair, luggage repair, leather care and quality bags.";
+
+    var canonicalUrl = $"https://newmacchindrabagstore.onrender.com{Context.Request.Path}";
+
+    var socialImage = $"https://newmacchindrabagstore.onrender.com/images/brand/a_logo_ssb.png";
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>@ViewData["Title"] - New Macchindra Leather & Bag Store</title>
+    <!-- SEO -->
+    <title>@pageTitle</title>
 
     <meta name="description"
-      content="@(ViewData["Description"] ?? "New Macchindra Leather and Bag Store in Lagankhel, Lalitpur. Bag repair, luggage repair, leather care and quality bags.")" />
+          content="@pageDescription" />
 
-    <meta name="keywords"
-          content="bag repair Lagankhel, luggage repair Lalitpur, leather repair Nepal, bag store Lalitpur, luggage repair, ladies bag repair, school bag repair" />
+    <meta name="robots"
+          content="index, follow" />
 
+    <link rel="canonical"
+          href="@canonicalUrl" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type"
+          content="website" />
+
+    <meta property="og:title"
+          content="@pageTitle" />
+
+    <meta property="og:description"
+          content="@pageDescription" />
+
+    <meta property="og:url"
+          content="@canonicalUrl" />
+
+    <meta property="og:image"
+          content="@socialImage" />
+
+    <meta property="og:image:alt"
+          content="New Macchindra Leather & Bag Store" />
+
+    <meta property="og:site_name"
+          content="New Macchindra Leather & Bag Store" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card"
+          content="summary_large_image" />
+
+    <meta name="twitter:title"
+          content="@pageTitle" />
+
+    <meta name="twitter:description"
+          content="@pageDescription" />
+
+    <meta name="twitter:image"
+          content="@socialImage" />
+
+    <meta name="twitter:image:alt"
+          content="New Macchindra Leather & Bag Store" />
+
+    <!-- Favicon -->
     <link rel="icon"
           type="image/png"
           href="~/images/brand/a_logo_ssb.png" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Fonts -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin />
 
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
           rel="stylesheet" />
 
+    <!-- Main stylesheet -->
     <link rel="stylesheet"
           href="~/css/site.css"
           asp-append-version="true" />
+
+    <!-- Local Business Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@@context": "https://schema.org",
+        "@@type": "LocalBusiness",
+        "@@id": "https://newmacchindrabagstore.onrender.com/#business",
+
+        "name": "New Macchindra Leather & Bag Store",
+
+        "url": "https://newmacchindrabagstore.onrender.com/",
+
+        "logo": "https://newmacchindrabagstore.onrender.com/images/brand/a_logo_ssb.png",
+
+        "image": "https://newmacchindrabagstore.onrender.com/images/brand/a_logo_ssb.png",
+
+        "telephone": [
+            "+9779860357158",
+            "+9779841821074"
+        ],
+
+        "address": {
+            "@@type": "PostalAddress",
+            "addressLocality": "Lagankhel",
+            "addressRegion": "Lalitpur",
+            "addressCountry": "NP"
+        },
+
+        "areaServed": {
+            "@@type": "City",
+            "name": "Lalitpur"
+        },
+
+        "sameAs": [
+            "https://www.instagram.com/new.macchindra.bag.store/",
+            "https://www.tiktok.com/@@new.macchindra.bag.store",
+            "https://www.facebook.com/profile.php?id=100084688467592"
+        ]
+    }
+    </script>
 </head>
 
 <body>
-
-    <!-- =========================
-         NAVBAR
-    ========================== -->
-
     <header class="site-header" id="siteHeader">
-
         <nav class="navbar container">
 
             <a class="brand" href="#home">
-
                 <img src="~/images/brand/a_logo_ssb.png"
                      alt="New Macchindra Leather and Bag Store logo" />
 
@@ -46,21 +140,16 @@
                     <strong>New Macchindra</strong>
                     <span>Leather & Bag Store</span>
                 </div>
-
             </a>
-
 
             <button class="menu-toggle"
                     id="menuToggle"
                     aria-label="Open menu"
                     type="button">
-
                 <span></span>
                 <span></span>
                 <span></span>
-
             </button>
-
 
             <div class="nav-links" id="navLinks">
 
@@ -77,7 +166,6 @@
                 <a href="#social">Social</a>
 
                 <a href="#contact">Contact</a>
-
 
                 <div class="nav-socials">
 
@@ -104,35 +192,22 @@
 
                 </div>
 
-
-                <a class="nav-call" href="tel:9860357158">
+                <a class="nav-call"
+                   href="tel:9860357158">
                     Call Us
                 </a>
 
             </div>
-
         </nav>
-
     </header>
-
-
-    <!-- =========================
-         PAGE CONTENT
-    ========================== -->
 
     <main>
         @RenderBody()
     </main>
 
-
-    <!-- =========================
-         FOOTER
-    ========================== -->
-
     <footer class="footer">
 
         <div class="container footer-inner">
-
 
             <div class="footer-main">
 
@@ -145,7 +220,6 @@
                     service in Lagankhel, Lalitpur.
                 </p>
 
-
                 <div class="footer-socials">
 
                     <a href="https://www.tiktok.com/@@new.macchindra.bag.store"
@@ -157,7 +231,6 @@
 
                     </a>
 
-
                     <a href="https://www.instagram.com/new.macchindra.bag.store/"
                        target="_blank"
                        rel="noopener noreferrer">
@@ -166,7 +239,6 @@
                         Instagram
 
                     </a>
-
 
                     <a href="https://www.facebook.com/profile.php?id=100084688467592"
                        target="_blank"
@@ -180,7 +252,6 @@
                 </div>
 
             </div>
-
 
             <div class="footer-contact">
 
@@ -200,23 +271,18 @@
 
             </div>
 
-
             <div class="footer-services">
 
                 <strong>Our Services</strong>
 
                 <span>Bag Repair</span>
-
                 <span>Luggage Repair</span>
-
                 <span>Leather Care</span>
-
                 <span>New Bags & Accessories</span>
 
             </div>
 
         </div>
-
 
         <div class="footer-bottom">
 
@@ -237,34 +303,23 @@
 
     </footer>
 
-
-    <!-- =========================
-         MOBILE CONTACT BAR
-    ========================== -->
-
     <div class="mobile-contact-bar">
 
         <a href="tel:9860357158">
-
             <span>☎</span>
-
             Call
-
         </a>
-
 
         <a href="https://wa.me/9779860357158"
            target="_blank"
            rel="noopener noreferrer">
 
             <span>◉</span>
-
             WhatsApp
 
         </a>
 
     </div>
-
 
     <script src="~/js/site.js"
             asp-append-version="true"></script>
