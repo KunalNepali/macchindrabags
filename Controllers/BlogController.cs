@@ -42,7 +42,9 @@ public class BlogController : Controller
 
                 <p>If the rest of your bag is still in good condition, repairing the damaged handle can give it a new lease of life.</p>
 
-                <p>At New Macchindra Leather and Bag Store, we handle different types of bag repairs at our store in Lagankhel, Lalitpur.</p>
+                <p>At New Macchindra Leather and Bag Store, we handle different types of <a href="/#services">bag repair services</a> at our store in Lagankhel, Lalitpur.</p>
+
+                <p>You can also <a href="/#repairs">see examples of our repair work</a> before bringing your bag to the store.</p>
 
                 <div class="blog-callout">
                     <strong>Have a damaged bag?</strong>
@@ -78,6 +80,8 @@ public class BlogController : Controller
 
                 <p>If the laptop compartment, padding, body and other parts of your bag are still in good condition, repairing the zipper can be a practical option.</p>
 
+                <p>Our <a href="/#services">bag repair services</a> cover zipper, stitching and other common problems with laptop, office and everyday bags. You can also <a href="/#repairs">see our repair work</a> for examples.</p>
+
                 <div class="blog-callout">
                     <strong>Having a zipper problem?</strong>
                     <span>Bring your laptop, office or other bag to our Lagankhel store for inspection.</span>
@@ -111,6 +115,8 @@ public class BlogController : Controller
                 <h2>Bring the bag before the damage gets worse</h2>
 
                 <p>A small zipper or stitching problem can sometimes become a larger tear if the bag continues to be used heavily.</p>
+
+                <p>Our <a href="/#services">bag repair services</a> include zipper, stitching and other common school bag problems. You can also <a href="/#repairs">see our repair work</a> to understand the type of repairs we handle.</p>
 
                 <div class="blog-callout">
                     <strong>School bag needs repair?</strong>
@@ -148,6 +154,8 @@ public class BlogController : Controller
 
                 <p>For luggage that is otherwise in good condition, repairing a damaged component can be a practical alternative to replacing the entire suitcase.</p>
 
+                <p>Learn more about our <a href="/#services">luggage repair services</a>, or <a href="/#repairs">see examples of our repair work</a> before bringing your suitcase to our Lagankhel store.</p>
+
                 <div class="blog-callout">
                     <strong>Have damaged luggage?</strong>
                     <span>Please bring it to our Lagankhel store for inspection. Repair services are provided at our store.</span>
@@ -176,7 +184,9 @@ public class BlogController : Controller
 
                 <p>Proper leather care starts with understanding the material and its condition. Cleaning, conditioning and polishing should be approached carefully so that the treatment is appropriate for the item.</p>
 
-                <p>We provide leather care and polishing services for suitable leather items at our Lagankhel store.</p>
+                <p>We provide <a href="/#services">leather care and polishing services</a> for suitable leather items at our Lagankhel store.</p>
+
+                <p>You can also <a href="/#repairs">see examples of our repair and restoration work</a> before bringing your leather item to us.</p>
 
                 <div class="blog-callout">
                     <strong>Need leather care?</strong>
@@ -207,6 +217,8 @@ public class BlogController : Controller
                 <p>The possible repair depends on how extensive the damage is and which part of the material has deteriorated. We inspect the affected area before deciding what type of repair or restoration is appropriate.</p>
 
                 <p>In some cases, repair can help extend the useful life of an item rather than immediately replacing it.</p>
+
+                <p>For suitable items, our <a href="/#services">bag and leather care services</a> can help address different types of surface and material problems. You can also <a href="/#repairs">see our repair work</a> for examples.</p>
 
                 <div class="blog-callout">
                     <strong>Rexine peeling?</strong>
@@ -239,6 +251,10 @@ public class BlogController : Controller
 
         ViewData["Title"] = post.Title;
         ViewData["Description"] = post.MetaDescription;
+        ViewData["OgType"] = "article";
+        ViewData["OgImage"] = post.FeaturedImage;
+        ViewData["ArticlePublishedDate"] = "2026-10-04";
+        ViewData["ArticleCategory"] = post.Category;
 
         return View(post);
     }

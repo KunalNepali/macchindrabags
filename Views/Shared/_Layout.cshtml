@@ -7,7 +7,16 @@
 
     var canonicalUrl = $"https://newmacchindrabagstore.onrender.com{Context.Request.Path}";
 
-    var socialImage = $"https://newmacchindrabagstore.onrender.com/images/brand/a_logo_ssb.png";
+    var ogType = ViewData["OgType"] as string ?? "website";
+
+    var ogImagePath = ViewData["OgImage"] as string
+                      ?? "/images/brand/a_logo_ssb.png";
+
+    var socialImage = $"https://newmacchindrabagstore.onrender.com{ogImagePath}";
+
+    var articlePublishedDate = ViewData["ArticlePublishedDate"] as string;
+
+    var articleCategory = ViewData["ArticleCategory"] as string;
 }
 
 <!DOCTYPE html>
@@ -29,8 +38,8 @@
           href="@canonicalUrl" />
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:type"
-          content="website" />
+<meta property="og:type"
+      content="@ogType" />
 
     <meta property="og:title"
           content="@pageTitle" />
@@ -126,13 +135,55 @@
         ]
     }
     </script>
+    @if (ogType == "article")
+{
+    <script type="application/ld+json">
+    {
+        "@@context": "https://schema.org",
+        "@@type": "BlogPosting",
+
+        "headline": "@Html.Raw(System.Text.Json.JsonSerializer.Serialize(pageTitle).Trim('"'))",
+
+        "description": "@Html.Raw(System.Text.Json.JsonSerializer.Serialize(pageDescription).Trim('"'))",
+
+        "image": [
+            "@socialImage"
+        ],
+
+        "url": "@canonicalUrl",
+
+        "datePublished": "@articlePublishedDate",
+
+        "author": {
+            "@@type": "Organization",
+            "name": "New Macchindra Leather & Bag Store",
+            "url": "https://newmacchindrabagstore.onrender.com/"
+        },
+
+        "publisher": {
+            "@@type": "Organization",
+            "name": "New Macchindra Leather & Bag Store",
+            "url": "https://newmacchindrabagstore.onrender.com/",
+            "logo": {
+                "@@type": "ImageObject",
+                "url": "https://newmacchindrabagstore.onrender.com/images/brand/a_logo_ssb.png"
+            }
+        },
+
+        "mainEntityOfPage": {
+            "@@type": "WebPage",
+            "@@id": "@canonicalUrl"
+        }
+    }
+    </script>
+}
 </head>
 
 <body>
     <header class="site-header" id="siteHeader">
         <nav class="navbar container">
 
-            <a class="brand" href="#home">
+<a class="brand" href="/#home">
                 <img src="~/images/brand/a_logo_ssb.png"
                      alt="New Macchindra Leather and Bag Store logo" />
 
@@ -153,19 +204,19 @@
 
             <div class="nav-links" id="navLinks">
 
-                <a href="#home">Home</a>
+<a href="/#home">Home</a>
 
-                <a href="#services">Services</a>
+<a href="/#services">Services</a>
 
-                <a href="#repairs">Our Work</a>
+<a href="/#repairs">Our Work</a>
 
-                <a href="#products">Products</a>
+<a href="/#products">Products</a>
 
-                <a href="/blog">Blog</a>
+<a href="/blog">Blog</a>
 
-                <a href="#social">Social</a>
+<a href="/#social">Social</a>
 
-                <a href="#contact">Contact</a>
+<a href="/#contact">Contact</a>
 
                 <div class="nav-socials">
 
