@@ -46,6 +46,15 @@ public class BlogController : Controller
 
                 <p>You can also <a href="/#repairs">see examples of our repair work</a> before bringing your bag to the store.</p>
 
+                <div class="blog-related">
+                    <h2>Related Articles</h2>
+                    <ul>
+                        <li><a href="/blog/laptop-bag-zip-repair">Laptop Bag Zip Stuck or Broken? What You Can Do</a></li>
+                        <li><a href="/blog/school-bag-zip-repair">School Bag Zip Broken? Repair or Replace?</a></li>
+                        <li><a href="/blog/suitcase-wheel-and-handle-repair">Suitcase Wheel or Handle Broken? What Can Be Repaired?</a></li>
+                    </ul>
+                </div>
+
                 <div class="blog-callout">
                     <strong>Have a damaged bag?</strong>
                     <span>Bring it to our Lagankhel store so we can inspect the problem and explain the repair options.</span>
@@ -82,6 +91,15 @@ public class BlogController : Controller
 
                 <p>Our <a href="/#services">bag repair services</a> cover zipper, stitching and other common problems with laptop, office and everyday bags. You can also <a href="/#repairs">see our repair work</a> for examples.</p>
 
+                <div class="blog-related">
+                    <h2>Related Articles</h2>
+                    <ul>
+                        <li><a href="/blog/school-bag-zip-repair">School Bag Zip Broken? Repair or Replace?</a></li>
+                        <li><a href="/blog/ladies-bag-handle-repair">Ladies Bag Handle Repair: Can a Broken Handle Be Fixed?</a></li>
+                        <li><a href="/blog/suitcase-wheel-and-handle-repair">Suitcase Wheel or Handle Broken? What Can Be Repaired?</a></li>
+                    </ul>
+                </div>
+
                 <div class="blog-callout">
                     <strong>Having a zipper problem?</strong>
                     <span>Bring your laptop, office or other bag to our Lagankhel store for inspection.</span>
@@ -117,6 +135,15 @@ public class BlogController : Controller
                 <p>A small zipper or stitching problem can sometimes become a larger tear if the bag continues to be used heavily.</p>
 
                 <p>Our <a href="/#services">bag repair services</a> include zipper, stitching and other common school bag problems. You can also <a href="/#repairs">see our repair work</a> to understand the type of repairs we handle.</p>
+
+                <div class="blog-related">
+                    <h2>Related Articles</h2>
+                    <ul>
+                        <li><a href="/blog/laptop-bag-zip-repair">Laptop Bag Zip Stuck or Broken? What You Can Do</a></li>
+                        <li><a href="/blog/ladies-bag-handle-repair">Ladies Bag Handle Repair: Can a Broken Handle Be Fixed?</a></li>
+                        <li><a href="/blog/suitcase-wheel-and-handle-repair">Suitcase Wheel or Handle Broken? What Can Be Repaired?</a></li>
+                    </ul>
+                </div>
 
                 <div class="blog-callout">
                     <strong>School bag needs repair?</strong>
@@ -156,6 +183,15 @@ public class BlogController : Controller
 
                 <p>Learn more about our <a href="/#services">luggage repair services</a>, or <a href="/#repairs">see examples of our repair work</a> before bringing your suitcase to our Lagankhel store.</p>
 
+                <div class="blog-related">
+                    <h2>Related Articles</h2>
+                    <ul>
+                        <li><a href="/blog/ladies-bag-handle-repair">Ladies Bag Handle Repair: Can a Broken Handle Be Fixed?</a></li>
+                        <li><a href="/blog/laptop-bag-zip-repair">Laptop Bag Zip Stuck or Broken? What You Can Do</a></li>
+                        <li><a href="/blog/rexine-bag-surface-repair">Rexine or Synthetic Leather Peeling: Can It Be Repaired?</a></li>
+                    </ul>
+                </div>
+
                 <div class="blog-callout">
                     <strong>Have damaged luggage?</strong>
                     <span>Please bring it to our Lagankhel store for inspection. Repair services are provided at our store.</span>
@@ -188,6 +224,15 @@ public class BlogController : Controller
 
                 <p>You can also <a href="/#repairs">see examples of our repair and restoration work</a> before bringing your leather item to us.</p>
 
+                <div class="blog-related">
+                    <h2>Related Articles</h2>
+                    <ul>
+                        <li><a href="/blog/rexine-bag-surface-repair">Rexine or Synthetic Leather Peeling: Can It Be Repaired?</a></li>
+                        <li><a href="/blog/ladies-bag-handle-repair">Ladies Bag Handle Repair: Can a Broken Handle Be Fixed?</a></li>
+                        <li><a href="/blog/suitcase-wheel-and-handle-repair">Suitcase Wheel or Handle Broken? What Can Be Repaired?</a></li>
+                    </ul>
+                </div>
+
                 <div class="blog-callout">
                     <strong>Need leather care?</strong>
                     <span>Bring your leather item to our store so we can inspect its condition and discuss the appropriate care.</span>
@@ -219,6 +264,15 @@ public class BlogController : Controller
                 <p>In some cases, repair can help extend the useful life of an item rather than immediately replacing it.</p>
 
                 <p>For suitable items, our <a href="/#services">bag and leather care services</a> can help address different types of surface and material problems. You can also <a href="/#repairs">see our repair work</a> for examples.</p>
+
+                <div class="blog-related">
+                    <h2>Related Articles</h2>
+                    <ul>
+                        <li><a href="/blog/leather-bag-polishing-and-care">Leather Bag Looking Dull? Understanding Leather Care</a></li>
+                        <li><a href="/blog/ladies-bag-handle-repair">Ladies Bag Handle Repair: Can a Broken Handle Be Fixed?</a></li>
+                        <li><a href="/blog/suitcase-wheel-and-handle-repair">Suitcase Wheel or Handle Broken? What Can Be Repaired?</a></li>
+                    </ul>
+                </div>
 
                 <div class="blog-callout">
                     <strong>Rexine peeling?</strong>
