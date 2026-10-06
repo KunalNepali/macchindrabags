@@ -9,6 +9,317 @@ public class BlogController : Controller
     private static readonly List<BlogPost> Posts =
     [
         new BlogPost
+{
+    Slug = "how-bag-repair-works-lagankhel-repair-process",
+    Title = "How We Repair Bags: Our Bag Repair Process at New Macchindra",
+    Excerpt = "Wondering how bag repair works at a local bag shop? Learn how we inspect your bag, estimate the repair cost and time, arrange necessary materials, complete the repair and let you know when it is ready for pickup at our Lagankhel store.",
+    FeaturedImage = "/images/repairs/repair_torn_bag.png",
+    Category = "Bag Repair Guide",
+    PublishedDate = "October 6, 2026",
+    ReadTime = "6 min read",
+    MetaDescription = "Learn how bag and luggage repair works at New Macchindra Leather and Bag Store in Lagankhel. We inspect the bag, estimate cost and time, arrange materials and complete the repair. New bags can be delivered across Nepal.",
+    ContentHtml = """
+        <p>
+            When a favourite bag gets damaged, many people wonder whether it can
+            actually be repaired, how much the repair will cost and how long they
+            will need to wait.
+        </p>
+
+        <p>
+            At <strong>New Macchindra Leather and Bag Store</strong> in
+            <strong>Lagankhel, Lalitpur</strong>, we repair different types of
+            bags and luggage. Our repair process starts when you bring your
+            damaged product to our shop. We inspect the problem, discuss the
+            required work, estimate the cost and expected time, and then carry
+            out the repair according to the condition of the bag.
+        </p>
+
+        <p>
+            Whether it is a school bag, laptop bag, ladies bag, office bag,
+            travel bag, luggage or another type of bag, the exact repair process
+            depends on what is damaged and what is required to fix it properly.
+        </p>
+
+        <h2>Step 1: Bring Your Bag to Our Shop</h2>
+
+        <p>
+            The first step is simple: bring the damaged bag or luggage to our
+            <strong>bag repair shop in Lagankhel</strong>.
+        </p>
+
+        <p>
+            Because every bag is different, we prefer to see the actual product
+            before confirming the repair. A photograph can sometimes show the
+            problem, but seeing the bag in person allows us to check the material,
+            stitching, handles, zips, wheels and other parts properly.
+        </p>
+
+        <p>
+            If you are looking for a <strong>bag repair shop near me</strong> or
+            a <strong>luggage repair shop in Lagankhel</strong>, you can bring
+            your item directly to New Macchindra Leather and Bag Store for
+            inspection.
+        </p>
+
+        <h2>Step 2: We Inspect the Damage</h2>
+
+        <p>
+            Once you bring the bag to us, we examine the damaged area and determine
+            what type of repair is required.
+        </p>
+
+        <p>
+            Depending on the bag, the problem may involve a broken handle, torn
+            stitching, damaged zip or chain, broken buckle, damaged wheel, worn
+            material or another part that needs attention.
+        </p>
+
+        <p>
+            Sometimes a problem that looks small from the outside requires
+            additional work inside the bag. This is why proper inspection is an
+            important part of our repair process.
+        </p>
+
+        <h2>Step 3: We Estimate the Repair Cost and Time</h2>
+
+        <p>
+            After inspecting the bag, we discuss the required repair with the
+            customer and provide an estimate of the <strong>repair cost and
+            expected time</strong>.
+        </p>
+
+        <p>
+            Repair time is not the same for every bag. It depends on the type of
+            damage, the amount of work required, the material involved and whether
+            any additional tools or materials need to be arranged.
+        </p>
+
+        <div class="blog-callout">
+            <strong>Repair time can vary from bag to bag.</strong>
+            <span>
+                Some repairs can be completed faster when the required tools and
+                materials are already available. Other repairs may take longer
+                because additional materials or tools need to be arranged first.
+            </span>
+        </div>
+
+        <h2>Step 4: We Arrange the Necessary Tools and Materials</h2>
+
+        <p>
+            Not every repair requires the same materials or equipment. Depending
+            on the job, we may already have the necessary tools and materials
+            available at our shop.
+        </p>
+
+        <p>
+            When everything required is available, we can proceed with the repair
+            more quickly. However, if a particular material, replacement part or
+            tool is needed and is not currently available, we may first need to
+            arrange or bring it before starting that part of the repair.
+        </p>
+
+        <p>
+            This is one of the reasons why we do not promise the same completion
+            time for every bag repair. We want to carry out the required work
+            properly rather than rushing the repair simply to finish it quickly.
+        </p>
+
+        <h2>Step 5: We Repair the Bag</h2>
+
+        <p>
+            Once the required tools and materials are ready, we begin the actual
+            repair work.
+        </p>
+
+        <p>
+            Our repair work can include different types of bag and luggage
+            problems, such as:
+        </p>
+
+        <ul>
+            <li>Broken or damaged bag handles</li>
+            <li>Handle replacement</li>
+            <li>Torn or loose stitching</li>
+            <li>Bag zip or chain repair and replacement</li>
+            <li>Damaged suitcase zips</li>
+            <li>Luggage wheel repair</li>
+            <li>Buckle and fastening repairs</li>
+            <li>Leather and rexine-related repair work</li>
+            <li>Leather polishing and care</li>
+            <li>Other repair work depending on the condition of the bag</li>
+        </ul>
+
+        <p>
+            The exact work depends on the product and the damage. Some bags require
+            simple stitching or replacement, while others require more detailed
+            repair work.
+        </p>
+
+        <h2>Step 6: Your Bag Is Ready for Pickup</h2>
+
+        <p>
+            After the repair is completed, you can collect your bag from our shop.
+            Because repair time varies according to the job, customers should not
+            expect every repair to be completed immediately while they wait.
+        </p>
+
+        <p>
+            Depending on the repair, you may need to leave the bag with us for a
+            few days. The expected completion time can be discussed when you bring
+            the product to our store and we inspect the damage.
+        </p>
+
+        <p>
+            If additional materials or tools have to be arranged, this can also
+            affect the completion time. We will discuss the expected timing based
+            on the repair required.
+        </p>
+
+        <h2>Why Does Bag Repair Time Vary?</h2>
+
+        <p>
+            There is no single repair time that applies to every bag. A simple
+            stitching job may be different from replacing a handle, repairing a
+            suitcase wheel or arranging a specific material.
+        </p>
+
+        <p>
+            The repair time may depend on:
+        </p>
+
+        <ul>
+            <li>The type of bag or luggage</li>
+            <li>The condition and extent of the damage</li>
+            <li>The type of repair required</li>
+            <li>The material needed for the repair</li>
+            <li>Whether replacement parts are required</li>
+            <li>Whether the necessary tools are already available</li>
+            <li>The amount of repair work currently in progress</li>
+        </ul>
+
+        <p>
+            For this reason, the best way to know the expected repair time and
+            cost is to bring the bag to our shop for inspection.
+        </p>
+
+        <h2>What Types of Bags Do We Repair?</h2>
+
+        <p>
+            Our <strong>bag repair service in Lagankhel</strong> covers many
+            different types of bags and luggage. Depending on the damage and
+            condition of the product, we can work on:
+        </p>
+
+        <ul>
+            <li>School bags</li>
+            <li>College bags</li>
+            <li>Laptop bags</li>
+            <li>Office bags</li>
+            <li>Ladies bags</li>
+            <li>Leather bags</li>
+            <li>Regular-use bags</li>
+            <li>Travel bags</li>
+            <li>Suitcases and luggage</li>
+            <li>Other bags requiring repair</li>
+        </ul>
+
+        <h2>Where Is Our Bag Repair Shop?</h2>
+
+        <p>
+            New Macchindra Leather and Bag Store is located in
+            <strong>Lagankhel, Lalitpur</strong>.
+        </p>
+
+        <p>
+            If you have a damaged bag or luggage, bring it directly to our store.
+            We can inspect the product, explain what repair is required and discuss
+            the estimated cost and completion time.
+        </p>
+
+        <h2>Our Shop Opening Hours</h2>
+
+        <p>
+            Our regular opening hours are
+            <strong>11:00 AM to 6:00 PM every day</strong>.
+        </p>
+
+        <p>
+            We generally remain open throughout the week, although there can be
+            occasional changes in opening hours due to emergencies, hospital
+            situations, festivals or other unavoidable circumstances.
+        </p>
+
+        <div class="blog-callout">
+            <strong>Planning to bring your bag for repair?</strong>
+            <span>
+                Our regular shop hours are 11:00 AM to 6:00 PM. For the most
+                accurate repair estimate, bring the actual bag to our Lagankhel
+                store so we can inspect it properly.
+            </span>
+        </div>
+
+        <h2>What About Delivery?</h2>
+
+        <p>
+            Our delivery option applies to our <strong>new bag products</strong>.
+            If you are looking to purchase a new school bag, laptop bag, ladies
+            bag, office bag, travel bag or another new product, you can contact us
+            for online ordering and delivery.
+        </p>
+
+        <p>
+            We offer <strong>delivery for new bags across Nepal</strong>, making
+            it possible for customers outside Lalitpur to order our new products
+            without visiting the physical store.
+        </p>
+
+        <p>
+            However, <strong>bag repair is different from purchasing a new
+            product</strong>. For repair work, the damaged bag needs to be brought
+            to our physical store so that we can inspect the condition and carry
+            out the required work.
+        </p>
+
+        <h2>Repair Your Bag Instead of Throwing It Away</h2>
+
+        <p>
+            A damaged handle, broken zip or torn stitching does not always mean
+            that you need to throw away your bag and buy a new one. Depending on
+            the condition of the product, repairing it may give the bag a new
+            lease of life.
+        </p>
+
+        <p>
+            If you have a bag that you still like or find useful, bring it to our
+            <strong>bag store in Lagankhel</strong>. We can inspect the problem and
+            let you know what repair work may be possible.
+        </p>
+
+        <h2>Visit New Macchindra Leather and Bag Store</h2>
+
+        <p>
+            From the first inspection to the final repair, our goal is to
+            understand the actual problem with your bag and carry out the required
+            work properly.
+        </p>
+
+        <p>
+            If you need a <strong>bag repair shop near you</strong>, a
+            <strong>luggage repair shop in Lagankhel</strong>, or help with a
+            damaged school, laptop, ladies, office or travel bag, bring the
+            product to our store during our regular opening hours.
+        </p>
+
+        <p>
+            <strong>
+                New Macchindra Leather and Bag Store — Bag repair, luggage repair,
+                leather care and new bags in Lagankhel, Lalitpur. New bags are
+                available for online ordering and delivery across Nepal.
+            </strong>
+        </p>
+    """
+},
+        new BlogPost
         {
             Slug = "ladies-bag-handle-repair",
             Title = "Ladies Bag Handle Repair: Can a Broken Handle Be Fixed?",
@@ -1025,6 +1336,352 @@ new BlogPost
                 New Macchindra Leather and Bag Store — Your trusted bag shop in
                 Lagankhel, Lalitpur for new bag collections, trendy tote bags,
                 and professional bag repairs.
+            </strong>
+        </p>
+    """
+},
+
+new BlogPost
+{
+    Slug = "bags-for-school-college-office-laptop-and-everyday-use-lagankhel",
+    Title = "Bags for Every Need in Lagankhel: School, College, Laptop, Office & More",
+    Excerpt = "Looking for a bag for Class 3, Class 5, Class 10, college, office, laptop or everyday use? Explore the wide range of school bags, backpacks, laptop bags, office bags, futsal bags and more available at New Macchindra Leather and Bag Store in Lagankhel.",
+    FeaturedImage = "/images/products/bag_collection_imgage.png",
+    Category = "Bag Collection",
+    PublishedDate = "October 6, 2026",
+    ReadTime = "6 min read",
+    MetaDescription = "Looking for a bag for Class 1 to 10, college, office, laptop, futsal or everyday use? Explore bags for different ages and needs at New Macchindra Leather and Bag Store, Lagankhel, Lalitpur.",
+    ContentHtml = """
+        <p>
+            Looking for the right bag can depend on your age, class, daily routine
+            and what you need to carry. A small school bag may be perfect for a
+            young student, while an older student may need a larger backpack with
+            more space. College students, office users and laptop users may have
+            completely different requirements.
+        </p>
+
+        <p>
+            At <strong>New Macchindra Leather and Bag Store</strong> in
+            <strong>Lagankhel, Lalitpur</strong>, we have bags for different
+            ages, classes and everyday needs. Whether you are searching for a
+            <strong>school bag for Class 3</strong>, a
+            <strong>bag for Class 5</strong>, a
+            <strong>bag for Class 10</strong>, a college backpack, laptop bag,
+            office bag, futsal bag or a regular-use bag, you can visit our store
+            and explore the available collection.
+        </p>
+
+        <h2>School Bags for Class 1 to Class 10</h2>
+
+        <p>
+            Students from different classes often need different types and sizes
+            of bags. Younger children generally need a comfortable school bag
+            that is easy to carry, while students in higher classes may need more
+            space for books, copies, files and other school materials.
+        </p>
+
+        <p>
+            Our school bag collection includes options for students from
+            <strong>Class 1 through Class 10</strong>. If you are searching for a
+            <strong>school bag near me</strong> or looking for a bag for a
+            particular class, you can visit our Lagankhel store to check the
+            available sizes, designs and styles.
+        </p>
+
+        <h3>Bag for Class 1</h3>
+
+        <p>
+            For Class 1 students, a comfortable and manageable school bag can make
+            carrying books and school supplies easier. Parents can visit our store
+            to check suitable children's school bags and backpacks.
+        </p>
+
+        <h3>Bag for Class 2</h3>
+
+        <p>
+            Students in Class 2 can choose from school bags designed for their
+            everyday books, copies, stationery and other school essentials.
+        </p>
+
+        <h3>Bag for Class 3</h3>
+
+        <p>
+            If you are searching for a <strong>bag for Class 3</strong>, we have
+            school bag options suitable for students at this stage. Visit our
+            store to check the available sizes, compartments and designs.
+        </p>
+
+        <h3>Bag for Class 4</h3>
+
+        <p>
+            Class 4 students may need a school bag with enough room for their
+            regular books, notebooks and other school materials. Our collection
+            includes different school bag styles to choose from.
+        </p>
+
+        <h3>Bag for Class 5</h3>
+
+        <p>
+            Looking for a <strong>school bag for Class 5</strong>? You can explore
+            our available school backpacks in different sizes and designs at our
+            Lagankhel store.
+        </p>
+
+        <h3>Bag for Class 6</h3>
+
+        <p>
+            For Class 6 students, a practical backpack with enough space for
+            multiple books and copies can be a useful everyday choice. Check our
+            available school bags in-store.
+        </p>
+
+        <h3>Bag for Class 7</h3>
+
+        <p>
+            Students in Class 7 can choose from school backpacks designed for
+            regular school use, with different styles and storage options
+            available depending on current stock.
+        </p>
+
+        <h3>Bag for Class 8</h3>
+
+        <p>
+            If you need a <strong>school bag for Class 8</strong>, our collection
+            includes backpacks suitable for older school students who need to
+            carry books, notebooks and other daily essentials.
+        </p>
+
+        <h3>Bag for Class 9</h3>
+
+        <p>
+            Class 9 students can explore practical school backpacks with enough
+            room for their regular school materials. Visit our store to see the
+            currently available designs.
+        </p>
+
+        <h3>Bag for Class 10</h3>
+
+        <p>
+            Students in Class 10 often carry several books, copies and study
+            materials. We have school bag options suitable for Class 10 students,
+            with different sizes and designs available at our store.
+        </p>
+
+        <div class="blog-callout">
+            <strong>Looking for a bag for a particular class?</strong>
+            <span>
+                From Class 1 to Class 10, visit our Lagankhel store and check the
+                currently available school bags. We can help you choose a bag
+                based on the student's age, size and everyday carrying needs.
+            </span>
+        </div>
+
+        <h2>College Bags and Backpacks</h2>
+
+        <p>
+            College students often need a bag that can handle books, notebooks,
+            files, stationery and personal belongings while still being
+            comfortable for everyday travel.
+        </p>
+
+        <p>
+            If you are searching for a <strong>college bag in Lagankhel</strong>,
+            a <strong>college backpack near me</strong>, or a practical backpack
+            for college life, you can explore our available collection at
+            New Macchindra Leather and Bag Store.
+        </p>
+
+        <h2>Laptop Bags for Students and Professionals</h2>
+
+        <p>
+            A laptop bag needs to provide convenient space for carrying a laptop
+            along with chargers, documents and other accessories. We have
+            <strong>laptop bags</strong> and office-style bags suitable for
+            different everyday needs.
+        </p>
+
+        <p>
+            Whether you are a student carrying a laptop to college or a
+            professional travelling to work, visit our store to check the
+            available laptop bag sizes and designs.
+        </p>
+
+        <h2>Office Bags for Work and Professional Use</h2>
+
+        <p>
+            For office users, a good bag should be practical enough for documents,
+            files, electronics and other work essentials. Our collection includes
+            <strong>office bags</strong> suitable for professional and everyday
+            use.
+        </p>
+
+        <p>
+            If you are searching for an <strong>office bag near me</strong> or a
+            professional-looking bag in Lagankhel, you can visit our store and
+            explore the available options.
+        </p>
+
+        <h2>Regular-Use Bags for Everyday Carry</h2>
+
+        <p>
+            Not every bag needs to be specifically for school, college or work.
+            Sometimes you simply need a comfortable bag for everyday activities,
+            shopping, travelling around the city or carrying your personal
+            belongings.
+        </p>
+
+        <p>
+            Our collection includes different <strong>regular-use bags</strong>,
+            backpacks, sling bags and other everyday carry options. The available
+            styles and designs may vary depending on our current stock.
+        </p>
+
+        <h2>Futsal and Sports Bags</h2>
+
+        <p>
+            If you play futsal or participate in sports, a dedicated sports bag
+            can make it easier to carry your shoes, clothes, water bottle and
+            other sports essentials.
+        </p>
+
+        <p>
+            We also have <strong>futsal and sports bags</strong> for players and
+            sports lovers. Visit our store in Lagankhel to check the available
+            sizes and designs.
+        </p>
+
+        <h2>Travel and Gym Bags</h2>
+
+        <p>
+            For short trips, gym sessions and other activities where you need
+            additional carrying space, a travel or duffel-style bag can be a
+            practical choice.
+        </p>
+
+        <p>
+            Our collection also includes <strong>travel bags and gym bags</strong>
+            in different styles. You can visit the store to see what is currently
+            available.
+        </p>
+
+        <h2>Ladies Bags, Purses and Sling Bags</h2>
+
+        <p>
+            We also have bags for everyday fashion and personal use, including
+            <strong>ladies bags, purses and sling bags</strong>. These can be
+            suitable for carrying phones, wallets, cosmetics and other personal
+            essentials.
+        </p>
+
+        <p>
+            If you are looking for a <strong>ladies bag near me</strong> or a
+            purse and sling bag in Lagankhel, visit our store to explore the
+            available collection.
+        </p>
+
+        <h2>Kids Bags and Smaller Everyday Bags</h2>
+
+        <p>
+            Younger children may need smaller bags for carrying personal items,
+            snacks, stationery, toys or other essentials. We have different
+            children's and smaller bag options depending on the current
+            collection.
+        </p>
+
+        <h2>Which Bag Is Right for You?</h2>
+
+        <p>
+            The best bag depends on what you need to carry and how you plan to use
+            it. When choosing a bag, consider its size, weight, compartments,
+            material, straps, stitching and overall comfort.
+        </p>
+
+        <ul>
+            <li>
+                <strong>School:</strong> Choose a comfortable backpack with enough
+                space for books and copies.
+            </li>
+            <li>
+                <strong>College:</strong> Look for a spacious backpack suitable for
+                books, files and everyday essentials.
+            </li>
+            <li>
+                <strong>Laptop:</strong> Choose a bag that provides suitable space
+                for your laptop and accessories.
+            </li>
+            <li>
+                <strong>Office:</strong> Consider a practical and professional bag
+                for documents, electronics and work items.
+            </li>
+            <li>
+                <strong>Regular use:</strong> Choose a comfortable everyday bag
+                based on the items you normally carry.
+            </li>
+            <li>
+                <strong>Futsal and sports:</strong> A spacious sports bag can be
+                useful for shoes, clothing and other equipment.
+            </li>
+            <li>
+                <strong>Travel:</strong> Consider a larger bag when you need extra
+                carrying capacity for trips and activities.
+            </li>
+        </ul>
+
+        <h2>Looking for a Bag Shop Near You?</h2>
+
+        <p>
+            If you are searching online for a <strong>bag shop near me</strong>,
+            <strong>school bag shop near me</strong>, <strong>backpack shop near
+            me</strong> or a bag store in Lalitpur, you can visit
+            <strong>New Macchindra Leather and Bag Store in Lagankhel</strong>.
+        </p>
+
+        <p>
+            Instead of searching for a separate shop for every type of bag, you
+            can visit us and explore different categories in one place. Our
+            collection includes school bags, college bags, laptop bags, office
+            bags, regular-use bags, futsal bags, travel bags, ladies bags, sling
+            bags and other everyday options.
+        </p>
+
+        <h2>New Bags Available for Online Order</h2>
+
+        <p>
+            Our <strong>new bag products</strong> are also available for online
+            ordering. If you find a bag you like, you can contact us to check
+            availability and order for delivery.
+        </p>
+
+        <p>
+            Online ordering and delivery are available for our new products.
+            However, <strong>bag repair services require the damaged bag to be
+            brought to our physical store</strong> so that we can inspect the
+            item properly.
+        </p>
+
+        <div class="blog-callout">
+            <strong>One Store, Bags for Different Needs</strong>
+            <span>
+                School, college, laptop, office, regular use, futsal, travel,
+                ladies and kids' bags — visit New Macchindra Leather and Bag Store
+                in Lagankhel to explore our current collection.
+            </span>
+        </div>
+
+        <h2>Visit New Macchindra Leather and Bag Store in Lagankhel</h2>
+
+        <p>
+            Whether you are a parent looking for a school bag for your child, a
+            student searching for a college backpack, a professional looking for
+            a laptop or office bag, or someone who simply needs a practical
+            everyday bag, we invite you to visit our store.
+        </p>
+
+        <p>
+            <strong>
+                New Macchindra Leather and Bag Store — bags for school, college,
+                office, laptop, sports, travel and everyday use in
+                Lagankhel, Lalitpur.
             </strong>
         </p>
     """
