@@ -3918,10 +3918,11 @@ a {
     position: relative;
     z-index: 2;
 
-    max-width: 1000px;
+    width: 100%;
+    max-width: 1180px;
     height: 500px;
 
-    margin: -30px auto 70px;
+    margin: 0 auto 70px;
 
     overflow: hidden;
 
@@ -3933,6 +3934,8 @@ a {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center 45%;
+    display: block;
 }
 
 .blog-article-layout {
@@ -4159,10 +4162,10 @@ a {
     }
 
     .blog-article-image {
-        height: 300px;
-        margin-top: -20px;
-        margin-bottom: 45px;
-        border-radius: 18px;
+    width: 100%;
+    height: 300px;
+    margin: 0 auto 45px;
+    border-radius: 18px;
     }
 
     .blog-article-content {
